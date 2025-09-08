@@ -2,6 +2,15 @@
 
 A scikit-learn extension for handling missing features in machine learning algorithms.
 
+## ⚠️ Important Note on Citations
+
+**This is NOT a published research paper.** This implementation synthesizes and extends existing research on missing data in Support Vector Machines. See [CITATION_NOTICE.md](CITATION_NOTICE.md) for proper citations of the foundational work this builds upon.
+
+**Key foundational papers:**
+- Pelckmans et al. (2005) - "Handling missing values in support vector machine classifiers"
+- Chechik et al. (2008) - "Max-margin classification of data with absent features"  
+- Williams et al. (2007) - "On classification with incomplete data"
+
 ## Overview
 
 This package provides algorithms that can work directly with missing data without requiring imputation. The initial implementation focuses on Support Vector Machines (SVM) with kernels designed to handle missing features.
